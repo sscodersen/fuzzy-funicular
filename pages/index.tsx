@@ -1,7 +1,7 @@
 import { Answer } from "@/components/Answer";
 import { Search } from "@/components/Search";
 import { SearchQuery } from "@/types";
-import { IconBrandGithub, IconBrandTwitter, IconBrandHoneycomb } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandTwitter, IconBolt } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
 
@@ -52,7 +52,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <IconBrandHoneycomb />
+          <IconBolt />
         </a>
 
         {answer ? (
