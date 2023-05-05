@@ -1,7 +1,7 @@
 import { Answer } from "@/components/Answer";
 import { Search } from "@/components/Search";
 import { SearchQuery } from "@/types";
-import { IconBrandGithub, IconBrandTwitter } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandTwitter, IconHoneycomb } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
 
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Clarity AI</title>
+        <title>NectarGPT+</title>
         <meta
           name="description"
           content="AI-powered search."
@@ -30,7 +30,7 @@ export default function Home() {
       <div className="h-screen overflow-auto bg-[#18181C] text-[#D4D4D8]">
         <a
           className="absolute top-0 right-12 p-4 cursor-pointer"
-          href="https://twitter.com/mckaywrigley"
+          href="https://twitter.com/0xpsychology"
           target="_blank"
           rel="noreferrer"
         >
@@ -39,11 +39,20 @@ export default function Home() {
 
         <a
           className="absolute top-0 right-2 p-4 cursor-pointer"
-          href="https://github.com/mckaywrigley/clarity-ai"
+          href="https://github.com/socialtribexyz/nectarGPT"
           target="_blank"
           rel="noreferrer"
         >
           <IconBrandGithub />
+        </a>
+
+        <a
+          className="absolute top-0 right-2 p-4 cursor-pointer"
+          href="https://dashboard.nectarhub.xyz/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconHoneycomb />
         </a>
 
         {answer ? (

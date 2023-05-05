@@ -1,5 +1,5 @@
 import { SearchQuery, Source } from "@/types";
-import { IconArrowRight, IconBolt, IconSearch, IconHoneycomb } from "@tabler/icons-react";
+import { IconArrowRight, IconSearch, IconHoneycomb } from "@tabler/icons-react";
 import endent from "endent";
 import { FC, KeyboardEvent, useEffect, useRef, useState } from "react";
 
