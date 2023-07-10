@@ -39,30 +39,13 @@ export default function Home() {
 
         <a
           className="absolute top-0 right-2 p-4 cursor-pointer"
-          href="https://github.com/socialtribexyz/Nectar-GPT"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconBrandGithub />
-        </a>
-
-        <a
-          className="absolute top-0 left-12 p-4 cursor-pointer"
-          href="https://www.threads.net/@officialsphrex"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconBrandTwitter />
-        </a>
-
-        <a
-          className="absolute top-0 center-2 p-4 cursor-pointer"
           href="/promptbar"
           target="_blank"
           rel="noreferrer"
         >
           <IconNotification />
         </a>
+
 
         {answer ? (
           <Answer
