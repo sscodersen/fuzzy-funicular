@@ -52,7 +52,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <IconBell />
+          <IconBrandTwitter />
         </a>
 
         <a
@@ -61,7 +61,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <IconBrandGithub />
+          <IconBell />
         </a>
 
         {answer ? (
