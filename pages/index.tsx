@@ -47,8 +47,8 @@ export default function Home() {
         </a>
 
         <a
-          className="absolute top-0 right-2 p-4 cursor-pointer"
-          href="/promptbar.tsx"
+          className="absolute top-0 right-1 p-4 cursor-pointer"
+          href="/promptbar"
           target="_blank"
           rel="noreferrer"
         >
