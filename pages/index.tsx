@@ -61,7 +61,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <IconBell />
+          <IconBrandGithub />
         </a>
 
         {answer ? (
