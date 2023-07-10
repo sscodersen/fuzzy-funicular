@@ -47,7 +47,7 @@ export default function Home() {
         </a>
 
         <a
-          className="absolute top-0 right-12 p-4 cursor-pointer"
+          className="absolute top-0 left-12 p-4 cursor-pointer"
           href="https://www.threads.net/@officialsphrex"
           target="_blank"
           rel="noreferrer"
@@ -56,7 +56,7 @@ export default function Home() {
         </a>
 
         <a
-          className="absolute top-0 left-5 p-4 cursor-pointer"
+          className="absolute top-0 left-2 p-4 cursor-pointer"
           href="/promptbar"
           target="_blank"
           rel="noreferrer"
