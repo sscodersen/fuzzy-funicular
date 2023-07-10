@@ -46,6 +46,15 @@ export default function Home() {
           <IconBrandGithub />
         </a>
 
+        <a
+          className="absolute top-0 right-2 p-4 cursor-pointer"
+          href="/promptbar.tsx"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconBrandGithub />
+        </a>
+
         {answer ? (
           <Answer
             searchQuery={searchQuery}
