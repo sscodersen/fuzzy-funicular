@@ -52,7 +52,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <IconBrandBell />
+          <IconBrandWorld />
         </a>
 
         <a
