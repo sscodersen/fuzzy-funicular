@@ -1,5 +1,5 @@
 import { SearchQuery, Source } from "@/types";
-import { IconArrowRight, IconSearch, IconBolt } from "@tabler/icons-react";
+import { IconArrowRight, IconBolt, IconSearch } from "@tabler/icons-react";
 import endent from "endent";
 import { FC, KeyboardEvent, useEffect, useRef, useState } from "react";
 
@@ -140,7 +140,7 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
         <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center space-y-6 px-3 pt-32 sm:pt-64">
           <div className="flex items-center">
             <IconBolt size={36} />
-            <div className="ml-1 text-center text-4xl">Nectar</div>
+            <div className="ml-1 text-center text-4xl">Clarity</div>
           </div>
 
           {apiKey.length === 51 ? (
