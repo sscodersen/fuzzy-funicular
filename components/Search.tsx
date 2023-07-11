@@ -1,5 +1,5 @@
 import { SearchQuery, Source } from "@/types";
-import { IconArrowRight, IconSearch, IconPanda } from "@tabler/icons-react";
+import { IconArrowRight, IconSearch, IconWand } from "@tabler/icons-react";
 import endent from "endent";
 import { FC, KeyboardEvent, useEffect, useRef, useState } from "react";
 
@@ -139,7 +139,7 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
       ) : (
         <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center space-y-6 px-3 pt-32 sm:pt-64">
           <div className="flex items-center">
-            <IconPanda />
+            <IconWand />
             <div className="ml-1 text-center text-4xl">NectarGPT</div>
           </div>
 
