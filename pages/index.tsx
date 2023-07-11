@@ -47,7 +47,7 @@ export default function Home() {
         </a>
 
         <a
-          className="absolute top-0 right-2 p-4 cursor-pointer"
+          className="absolute top-0 left-2 p-4 cursor-pointer"
           href="/promptbar"
           target="_blank"
           rel="noreferrer"
