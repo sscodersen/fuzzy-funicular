@@ -139,7 +139,7 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
       ) : (
         <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center space-y-6 px-3 pt-32 sm:pt-64">
           <div className="flex items-center">
-            <IconPanda size={36} />
+            <IconPanda />
             <div className="ml-1 text-center text-4xl">NectarGPT</div>
           </div>
 
