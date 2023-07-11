@@ -1,7 +1,7 @@
 import { Answer } from "@/components/Answer";
 import { Search } from "@/components/Search";
 import { SearchQuery } from "@/types";
-import { IconBrandGithub, IconBrandTwitter, IconNotification } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandTwitter, IconNotification, IconGlobe } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
 
@@ -44,6 +44,15 @@ export default function Home() {
           rel="noreferrer"
         >
           <IconNotification />
+        </a>
+
+        <a
+          className="absolute top-0 right-2 p-4 cursor-pointer"
+          href="/promptbar"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconGlobe size={24} />
         </a>
 
 
