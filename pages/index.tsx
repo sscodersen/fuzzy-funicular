@@ -1,7 +1,7 @@
 import { Answer } from "@/components/Answer";
 import { Search } from "@/components/Search";
 import { SearchQuery } from "@/types";
-import { IconBrandGithub, IconBrandTwitter, IconNotification, IconGlobe } from "@tabler/icons-react";
+import { IconBrandTwitter, IconNotification, IconGlobe } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
 
