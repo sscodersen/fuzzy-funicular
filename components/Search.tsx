@@ -37,7 +37,7 @@ export const Search: FC<SearchProps> = ({ onSearch }) => {
         />
 
         <button>
-          <Link to="/promptbar">
+          <Link to="/promptbar.tsx">
             <IconArrowRight className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10" />
           </Link>
         </button>
