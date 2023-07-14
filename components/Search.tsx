@@ -1,8 +1,6 @@
 import { IconArrowRight, IconSearch, IconWand } from "@tabler/icons-react";
 import { FC, KeyboardEvent, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { PromptBar } from "/PromptBar";
-
 interface SearchProps {
   onSearch: () => void;
 }
@@ -42,6 +40,7 @@ export const Search: FC<SearchProps> = ({ onSearch }) => {
             <IconArrowRight className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10" />
           </Link>
         </button>
+
       </div>
     </div>
   );
