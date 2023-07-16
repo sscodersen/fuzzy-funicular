@@ -1,14 +1,9 @@
-import { Answer } from "@/components/Answer";
-import { Search } from "@/components/Search";
-import { SearchQuery } from "@/types";
 import { IconBrandTwitter, IconNotification, IconGlobe } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
 
 export default function Home() {
-  const [searchQuery, setSearchQuery] = useState<SearchQuery>({ query: "", sourceLinks: [] });
-  const [answer, setAnswer] = useState<string>("");
-  const [done, setDone] = useState<boolean>(false);
+  const [showSearch, setShowSearch] = useState<boolean>(true);
 
   return (
     <>
@@ -55,24 +50,36 @@ export default function Home() {
           <IconGlobe size={24} />
         </a>
 
+        {showSearch && (
+          <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center space-y-6 px-3 pt-32 sm:pt-64">
+            <div className="flex items-center">
+              <IconWand />
+              <div className="ml-1 text-center text-4xl">NectarGPT</div>
+            </div>
 
-        {answer ? (
-          <Answer
-            searchQuery={searchQuery}
-            answer={answer}
-            done={done}
-            onReset={() => {
-              setAnswer("");
-              setSearchQuery({ query: "", sourceLinks: [] });
-              setDone(false);
-            }}
-          />
-        ) : (
-          <Search
-            onSearch={setSearchQuery}
-            onAnswerUpdate={(value) => setAnswer((prev) => prev + value)}
-            onDone={setDone}
-          />
+            <div className="relative w-full">
+              <IconSearch className="text=[#D4D4D8] absolute top-3 w-10 left-1 h-6 rounded-full opacity-50 sm:left-3 sm:top-4 sm:h-8" />
+
+              <input
+                className="h-12 w-full rounded-full border border-zinc-600 bg-[#2A2A31] pr-12 pl-11 focus:border-zinc-800 focus:bg-[#18181C] focus:outline-none focus:ring-2 focus:ring-zinc-800 sm:h-16 sm:py-2 sm:pr-16 sm:pl-16 sm:text-lg"
+                type="text"
+                placeholder="What would you like to achieve today..."
+              />
+
+              <button>
+                <IconArrowRight
+                  className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10"
+                />
+              </button>
+            </div>
+
+            <button
+              className="flex cursor-pointer items-center space-x-2 rounded-full border border-zinc-600 px-3 py-1 text-sm text-[#D4D4D8] hover:text-white"
+              onClick={() => setShowSearch(false)}
+            >
+              Hide Search
+            </button>
+          </div>
         )}
       </div>
     </>
