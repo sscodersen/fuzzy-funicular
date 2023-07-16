@@ -1,4 +1,4 @@
-import { IconBrandTwitter, IconNotification, IconGlobe } from "@tabler/icons-react";
+import { IconBrandTwitter, IconNotification, IconGlobe, IconWand } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
 
