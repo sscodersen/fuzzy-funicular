@@ -1,12 +1,6 @@
 import { FC, KeyboardEvent, useEffect, useRef, useState } from "react";
 import { IconArrowRight, IconSearch, IconWand } from "@tabler/icons-react";
 
-interface SearchProps {
-  onSearch: (searchResult: SearchQuery) => void;
-  onAnswerUpdate: (answer: string) => void;
-  onDone: (done: boolean) => void;
-}
-
 export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
