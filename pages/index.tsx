@@ -9,18 +9,9 @@ export default function Home() {
     <>
       <Head>
         <title>NectarGPT</title>
-        <meta
-          name="description"
-          content="AI-powered search."
-        />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        />
-        <link
-          rel="icon"
-          href="/favicon.png"
-        />
+        <meta name="description" content="AI-powered search." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="h-screen overflow-auto bg-[#18181C] text-[#D4D4D8]">
         <a
@@ -32,21 +23,11 @@ export default function Home() {
           <IconBrandTwitter />
         </a>
 
-        <a
-          className="absolute top-0 right-2 p-4 cursor-pointer"
-          href="/promptbar"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a className="absolute top-0 right-2 p-4 cursor-pointer" href="" target="_blank" rel="noreferrer">
           <IconNotification />
         </a>
 
-        <a
-          className="absolute top-0 left-2 p-4 cursor-pointer"
-          href=""
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a className="absolute top-0 left-2 p-4 cursor-pointer" href="" target="_blank" rel="noreferrer">
           <IconGlobe size={24} />
         </a>
 
@@ -66,19 +47,14 @@ export default function Home() {
                 placeholder="What would you like to achieve today..."
               />
 
-              <button>
-                <IconArrowRight
-                  className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10"
-                />
-              </button>
+              <a href="/promptbar">
+                <button>
+                  <IconArrowRight
+                    className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10"
+                  />
+                </button>
+              </a>
             </div>
-
-            <button
-              className="flex cursor-pointer items-center space-x-2 rounded-full border border-zinc-600 px-3 py-1 text-sm text-[#D4D4D8] hover:text-white"
-              onClick={() => setShowSearch(false)}
-            >
-              Hide Search
-            </button>
           </div>
         )}
       </div>
