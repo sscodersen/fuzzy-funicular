@@ -101,4 +101,4 @@ export const Search: FC<SearchProps> = ({ onSearch, onAnswerUpdate, onDone }) =>
       )}
     </>
   );
-}
+};
