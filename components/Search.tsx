@@ -2,7 +2,7 @@ import { FC, KeyboardEvent, useEffect, useRef, useState } from "react";
 import { IconArrowRight, IconSearch, IconWand } from "@tabler/icons-react";
 
 interface SearchProps {
-  onSearch: () => void;
+  onSearch: (searchResult: SearchQuery) => void;
   onAnswerUpdate: (answer: string) => void;
   onDone: (done: boolean) => void;
 }
