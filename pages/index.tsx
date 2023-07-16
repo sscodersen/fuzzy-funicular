@@ -44,12 +44,13 @@ export default function Home() {
           />
         ) : (
           <Search
-            onSearch={setSearchQuery}
+            onSearch={(result) => setSearchQuery(result)}
             onAnswerUpdate={(value) => setAnswer((prev) => prev + value)}
-            onDone={setDone}
+            onDone={(isDone) => setDone(isDone)}
           />
         )}
       </div>
     </>
   );
 }
+
