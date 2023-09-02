@@ -23,7 +23,7 @@ export default function Home() {
           <IconBrandTwitter />
         </a>
 
-        <a className="absolute top-0 right-2 p-4 cursor-pointer" href="https://drive.google.com/uc?export=download&id=1enI7fLmFWRPquGJyq349pq98eaDindzo" target="_blank" rel="noreferrer">
+        <a className="absolute top-0 right-2 p-4 cursor-pointer" href="https://drive.google.com/uc?export=download&id=1W9rjZgt-2giRRPDwA2M4N0DeDHcEW8Pp" target="_blank" rel="noreferrer">
           <IconNotification />
         </a>
 
