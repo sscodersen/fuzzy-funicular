@@ -27,7 +27,7 @@ export default function Home() {
           <IconNotification />
         </a>
 
-        <a className="absolute top-0 left-2 p-4 cursor-pointer" href="" target="_blank" rel="noreferrer">
+        <a className="absolute top-0 left-2 p-4 cursor-pointer" href="https://prompt.nectarhub.xyz/" target="_blank" rel="noreferrer">
           <IconGlobe size={24} />
         </a>
 
