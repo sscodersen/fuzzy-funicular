@@ -23,7 +23,7 @@ export default function Home() {
           <IconAt />
         </a>
 
-        <a className="absolute top-0 right-2 p-4 cursor-pointer" href="https://drive.google.com/uc?export=download&id=1-kayYVUn03pI4KpU39kOkwNgVbtDdHgN" target="_blank" rel="noreferrer">
+        <a className="absolute top-0 right-2 p-4 cursor-pointer" href="https://resources.nectarhub.xyz/" target="_blank" rel="noreferrer">
           <IconNotification />
         </a>
 
