@@ -1,4 +1,4 @@
-import { IconBrandThreads, IconNotification, IconGlobe, IconWand, IconSearch, IconArrowRight } from "@tabler/icons-react";
+import { IconBrandat, IconNotification, IconGlobe, IconWand, IconSearch, IconArrowRight } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
 
@@ -20,7 +20,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <IconBrandThreads />
+          <IconBrandat />
         </a>
 
         <a className="absolute top-0 right-2 p-4 cursor-pointer" href="https://drive.google.com/uc?export=download&id=1-kayYVUn03pI4KpU39kOkwNgVbtDdHgN" target="_blank" rel="noreferrer">
