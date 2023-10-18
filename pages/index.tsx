@@ -13,9 +13,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="h-screen overflow-auto bg-[#18181C] text-[#D4D4D8]">
+      <div className="glassmorphism-container">
         <a
-          className="absolute top-0 right-12 p-4 cursor-pointer"
+          className="glassmorphism-icon absolute top-4 right-4 p-4 cursor-pointer"
           href="https://www.threads.net/@officialsphrex"
           target="_blank"
           rel="noreferrer"
@@ -23,35 +23,33 @@ export default function Home() {
           <IconAt />
         </a>
 
-        <a className="absolute top-0 right-2 p-4 cursor-pointer" href="https://resources.nectarhub.xyz/" target="_blank" rel="noreferrer">
+        <a className="glassmorphism-icon absolute top-4 right-4 p-4 cursor-pointer" href="https://resources.nectarhub.xyz" target="_blank" rel="noreferrer">
           <IconNotification />
         </a>
 
-        <a className="absolute top-0 left-2 p-4 cursor-pointer" href="https://prompt.nectarhub.xyz/" target="_blank" rel="noreferrer">
+        <a className="glassmorphism-icon absolute top-4 left-4 p-4 cursor-pointer" href="https://prompt.nectarhub.xyz" target="_blank" rel="noreferrer">
           <IconGlobe size={24} />
         </a>
 
         {showSearch && (
-          <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center space-y-6 px-3 pt-32 sm:pt-64">
-            <div className="flex items-center">
-              <IconWand />
-              <div className="ml-1 text-center text-4xl">NectarGPT</div>
+          <div className="glassmorphism-search-container">
+            <div className="glassmorphism-search-bar">
+              <IconWand className="glassmorphism-icon" />
+              <div className="glassmorphism-title">NectarGPT</div>
             </div>
 
-            <div className="relative w-full">
-              <IconSearch className="text=[#D4D4D8] absolute top-3 w-10 left-1 h-6 rounded-full opacity-50 sm:left-3 sm:top-4 sm:h-8" />
+            <div className="glassmorphism-search-box">
+              <IconSearch className="glassmorphism-search-icon" />
 
               <input
-                className="h-12 w-full rounded-full border border-zinc-600 bg-[#2A2A31] pr-12 pl-11 focus:border-zinc-800 focus:bg-[#18181C] focus:outline-none focus:ring-2 focus:ring-zinc-800 sm:h-16 sm:py-2 sm:pr-16 sm:pl-16 sm:text-lg"
+                className="glassmorphism-input"
                 type="text"
                 placeholder="What would you like today..."
               />
 
-              <a href="https://ai.nectarhub.xyz/">
-                <button>
-                  <IconArrowRight
-                    className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10"
-                  />
+              <a href="https://ai.nectarhub.xyz">
+                <button className="glassmorphism-button">
+                  <IconArrowRight className="glassmorphism-button-icon" />
                 </button>
               </a>
             </div>
