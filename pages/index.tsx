@@ -1,7 +1,7 @@
 import { IconAt, IconNotification, IconGlobe, IconWand, IconSearch, IconArrowRight } from "@tabler/icons-react";
 import Head from "next/head";
 import { useState } from "react";
-import './your-styles.css'; // Import your own styles for this design
+
 
 export default function Home() {
   const [showSearch, setShowSearch] = useState<boolean>(true);
