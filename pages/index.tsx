@@ -14,22 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="h-screen overflow-auto bg-[#18181C] text-[#D4D4D8]">
-        <a
-          className="absolute top-0 right-12 p-4 cursor-pointer"
-          href="https://www.threads.net/@officialsphrex"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconAt />
-        </a>
-
-        <a className="absolute top-0 right-2 p-4 cursor-pointer" href="https://resources.nectarhub.xyz/" target="_blank" rel="noreferrer">
-          <IconNotification />
-        </a>
-
-        <a className="absolute top-0 left-2 p-4 cursor-pointer" href="https://prompt.nectarhub.xyz/" target="_blank" rel="noreferrer">
-          <IconGlobe size={24} />
-        </a>
 
         {showSearch && (
           <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center space-y-6 px-3 pt-32 sm:pt-64">
@@ -47,7 +31,7 @@ export default function Home() {
                 placeholder="What would you like today..."
               />
 
-              <a href="https://ai.nectarhub.xyz/">
+              <a href="https://dashboard.nectarhub.xyz/">
                 <button>
                   <IconArrowRight
                     className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10"
