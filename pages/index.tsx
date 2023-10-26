@@ -31,7 +31,7 @@ export default function Home() {
                 placeholder="What would you like today..."
               />
 
-              <a href="https://dashboard.nectarhub.xyz/">
+              <a href="https://ai.nectarhub.xyz/">
                 <button>
                   <IconArrowRight
                     className="absolute right-2 top-2.5 h-7 w-7 rounded-full bg-blue-500 p-1 hover:cursor-pointer hover:bg-blue-600 sm:right-3 sm:top-3 sm:h-10 sm:w-10"
